@@ -62,7 +62,7 @@
   margin: 0 auto;
 }
 
-.home {
+#home {
   background-image: url('/Users/luqmanzaceria/dev/digital-marketing-agency/rocket-launch.jpg');
   background-size: cover;
   box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.75);
