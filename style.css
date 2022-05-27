@@ -68,6 +68,12 @@
   text-align: center; 
 }
 
+.home-button-text{
+  color: white;
+  text-decoration: none; 
+  border: none;
+}
+
 .home-action{
   width: 300px;
 
@@ -150,7 +156,7 @@
 
 .services-title {
   color:white;
-  margin: 100px 0px 0px;
+  margin: 100px 100px 0px;
 }
 
 .container {
