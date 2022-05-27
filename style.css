@@ -40,6 +40,7 @@
 }
 
 
+
 #home {
   background-image: url('/Users/luqmanzaceria/dev/digital-marketing-agency/rocket-launch.jpg');
   background-size: cover;
@@ -50,13 +51,28 @@
   width:auto;
 }
 
-
 .home-text{
   color: white;
+  
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -80%);
+  transform: translate(-50%, -80%);
+
+  text-align: center; 
 }
 
 .home-action{
-  width: 400px;
+  width: 300px;
+
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -40%);
+  transform: translate(-50%, -40%);
 }
 
 
