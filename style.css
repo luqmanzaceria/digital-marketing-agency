@@ -41,7 +41,7 @@
   background-color: black;
 }
 
-.navbar-nav.navbar-center {
+.nav-text{
   position: absolute;
   left: 50%;
   transform: translatex(-50%);
@@ -51,15 +51,28 @@
   position: absolute;
   left: 50%;
   transform: translatex(-50%);
+
+  top: 6px;
 }
 
 .navbar-brand{
   padding: 0.375rem 0.75rem;
 }
 
-.navbar-text{
+.navbar-collapse{
   font-size:18px;
   margin: 0 auto;
+}
+
+.btn-nav{
+  padding: 0.55rem 0.75rem;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+.navbar-collapse.show{
+  height: 125px;
 }
 
 #home {
