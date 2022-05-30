@@ -318,7 +318,10 @@ ul.navbar-nav a:hover {
 }
 
 .p-4{
-  margin:0px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
 }
 
 .fa {
