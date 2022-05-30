@@ -8,4 +8,6 @@ for(let i=0; i<links.length; i++){
 }
 
 
-
+var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+    target: '#navbar'
+  })

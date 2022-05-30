@@ -43,7 +43,7 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <div id="topheader">
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <a class="navbar-brand text-white" href="#">Brand</a>
@@ -67,76 +67,81 @@
                 <a class="btn btn-primary btn-small btn-danger navbar-btn" href="#contact">Speak With Us!</a>
               </div>
       </div>  <!-- /.container-fluid --> 
-      </div>
+      
     </nav>  
-
-    <div class="bg-image" id="home">
-        <div class="home-text">
-          <h1 class="text-white mb-0 agency-name">[Agency Name]</h1>
-          <br>
-          <h2 class="text-white mb-0 agency-desc">A Digital Marketing Agency</h2>
-        </div>
-        <a href="#contact" class="btn-lg btn-danger navbar-btn home-action home-button-text text-center">
-          Speak With Us
-          <br>
-          for a free consultation!
-        </a>
-        <svg class="arrows">
-          <path class="a1" d="M0 0 L30 32 L60 0"></path>
-          <path class="a2" d="M0 20 L30 52 L60 20"></path>
-          <path class="a3" d="M0 40 L30 72 L60 40"></path>
-        </svg>
     </div>
 
-    <div id="services">
-      <h1 class="services-title">Our Services</h1>
-      <br>
-      <div class="container">
-        <div class="card">
-          <div class="box">
-            <div class="content ads">
-              <img src="ads.png" class="service-img ads-img"></img>
-              <h3>Advertising</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+    <div class="scrollspy" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
+
+      <div class="bg-image" id="home">
+          <div class="home-text">
+            <h1 class="text-white mb-0 agency-name">[Agency Name]</h1>
+            <br>
+            <h2 class="text-white mb-0 agency-desc">A Digital Marketing Agency</h2>
+          </div>
+          <a href="#contact" class="btn-lg btn-danger navbar-btn home-action home-button-text text-center">
+            Speak With Us
+            <br>
+            for a free consultation!
+          </a>
+          <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+          </svg>
+      </div>
+
+      <div id="services">
+        <h1 class="services-title">Our Services</h1>
+        <br>
+        <div class="container">
+          <div class="card">
+            <div class="box">
+              <div class="content ads">
+                <img src="ads.png" class="service-img ads-img"></img>
+                <h3>Advertising</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+              </div>
             </div>
           </div>
-        </div>
-      
-        <div class="card">
-          <div class="box">
-            <div class="content content-marketing">
-              <img src="content.png" class="service-img content-img"></img>
-              <h3>Content</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+        
+          <div class="card">
+            <div class="box">
+              <div class="content content-marketing">
+                <img src="content.png" class="service-img content-img"></img>
+                <h3>Content</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+              </div>
             </div>
           </div>
-        </div>
-      
-        <div class="card">
-          <div class="box">
-            <div class="content email">
-              <img src="email.png" class="service-img email-img"></img>
-              <h3>Email</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+        
+          <div class="card">
+            <div class="box">
+              <div class="content email">
+                <img src="email.png" class="service-img email-img"></img>
+                <h3>Email</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="bg-image" id="why-us">
-      <h1 class="why-us-title">Why Work With Us?</h1>
-      <p class="why-us-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-        nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-        tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-        quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
-        sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
-        recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
-        minima nesciunt dolorem!</p>
+      <div class="bg-image" id="why-us">
+        <h1 class="why-us-title">Why Work With Us?</h1>
+        <p class="why-us-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+          molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+          numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+          optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+          obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+          nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+          tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+          quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+          sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+          recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
+          minima nesciunt dolorem!</p>
+      </div>
+
     </div>
 
     <div id="contact">
