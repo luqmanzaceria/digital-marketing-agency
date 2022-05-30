@@ -7,11 +7,21 @@ body{
   background-color: black;
 }
 
+.active{
+  font-weight: bold;
+  color: #dc3545 !important;
+}
+
+ul.navbar-nav a:hover { 
+  color: #dc3545 !important;
+}
+
 .nav-text{
   position: absolute;
   left: 50%;
   transform: translatex(-50%);
 }
+
 
 .nav-link{
   margin: 8px 20px;
