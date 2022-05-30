@@ -155,7 +155,7 @@
 }
 
 .services-title {
-  color:white;
+  color: #dc3545;
   margin: 100px 100px 0px;
 }
 
@@ -253,3 +253,57 @@
 
 
 
+#why-us{
+  background-image: url(/Users/luqmanzaceria/dev/digital-marketing-agency/marketingagency.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow:inset 0 0 0 2000px rgb(0,0,0,0.75);
+
+  padding: 1em;
+  height: 100vh;
+  width:auto;
+
+  color:white;
+}
+
+.why-us-title{
+  text-align: center;
+  padding-top: 200px;
+  color: #dc3545;
+}
+
+.why-us-desc{
+  margin: auto;
+  width: 75%;
+  text-align: center;
+  font-size: 24px;
+  padding: 50px;
+}
+
+
+
+#contact{
+  background-color: #0d151c;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 275px 0px;
+}
+
+.contact-text{
+  padding:50px;
+}
+
+.speak-with-us{
+  color: #dc3545;
+  font-size: 60px;
+}
+.free-consultation{
+  font-size: 36px;
+}
+
+.insert-calendly{
+  padding:50px;
+}
