@@ -63,7 +63,7 @@ ul.navbar-nav a:hover {
 }
 
 #home {
-  background-image: url('/Users/luqmanzaceria/dev/digital-marketing-agency/rocket-launch.jpg');
+  background-image: url('rocket-launch.jpg');
   background-size: cover;
   box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.75);
   
@@ -257,7 +257,7 @@ ul.navbar-nav a:hover {
 
 
 #why-us{
-  background-image: url(/Users/luqmanzaceria/dev/digital-marketing-agency/marketingagency.png);
+  background-image: url('marketingagency.png');
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow:inset 0 0 0 2000px rgb(0,0,0,0.75);
