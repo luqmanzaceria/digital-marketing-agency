@@ -271,7 +271,7 @@ ul.navbar-nav a:hover {
 
 .why-us-title{
   text-align: center;
-  padding-top: 175px;
+  padding-top: 50px;
   color: #dc3545;
 }
 
@@ -279,7 +279,7 @@ ul.navbar-nav a:hover {
   margin: auto;
   width: 75%;
   text-align: center;
-  font-size: 2.25vw;
+  font-size: clamp(16px, 2vw, 32px);
   padding: 50px;
 }
 
