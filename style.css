@@ -87,7 +87,7 @@ ul.navbar-nav a:hover {
   
   margin: 0;
   position: relative;
-  top:275px;
+  top:30vh;
   text-align: center; 
 }
 
@@ -102,10 +102,10 @@ ul.navbar-nav a:hover {
 
   margin: 0;
   position: absolute;
-  top: 15%;
+  top: 50vh;
   left: 50%;
-  -ms-transform: translate(-50%, -40%);
-  transform: translate(-50%, -40%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .arrows {
