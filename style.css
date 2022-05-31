@@ -4,7 +4,6 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
 
     font-family: 'Roboto', sans-serif;
 }
@@ -12,6 +11,10 @@ html,body
 
 .navbar {
   background-color: black;
+}
+
+.nav-fluid{
+  box-sizing: border-box;
 }
 
 .active{
@@ -95,7 +98,7 @@ ul.navbar-nav a:hover {
 }
 
 .home-action{
-  width: 300px;
+  width: 50%;
 
   margin: 0;
   position: absolute;
@@ -104,7 +107,6 @@ ul.navbar-nav a:hover {
   -ms-transform: translate(-50%, -40%);
   transform: translate(-50%, -40%);
 }
-
 
 .arrows {
 	width: 60px;
@@ -315,7 +317,7 @@ ul.navbar-nav a:hover {
 }
 
 .insert-calendly{
-  padding:50px;
+
 }
 
 
@@ -333,6 +335,7 @@ ul.navbar-nav a:hover {
 
 .fa {
   padding: 20px;
+  margin: 5px;
   font-size: 30px;
   width: 55px;
   text-align: center;
