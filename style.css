@@ -95,10 +95,11 @@ ul.navbar-nav a:hover {
   color: white;
   text-decoration: none; 
   border: none;
+  font-size: clamp(16px, 2vw, 32px);
 }
 
 .home-action{
-  width: 25%;
+  width: 35%;
 
   margin: 0;
   position: absolute;
@@ -169,6 +170,8 @@ ul.navbar-nav a:hover {
 .services-title {
   color: #dc3545;
   margin: 100px 100px 0px;
+  width: 100%;
+  text-align: center;
 }
 
 .container {
@@ -280,7 +283,7 @@ ul.navbar-nav a:hover {
 
 .why-us-title{
   text-align: center;
-  padding-top: 50px;
+  padding-top: 200px;
   color: #dc3545;
 }
 
@@ -317,7 +320,7 @@ ul.navbar-nav a:hover {
 }
 
 .insert-calendly{
-  width:75%;
+  width:50%;
 }
 
 
