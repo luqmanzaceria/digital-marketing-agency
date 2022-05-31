@@ -289,6 +289,8 @@ ul.navbar-nav a:hover {
 
 .why-us-desc{
   margin: auto;
+  margin-bottom: 50px;
+
   width: 75%;
   text-align: center;
   font-size: clamp(16px, 2vw, 32px);
@@ -313,10 +315,10 @@ ul.navbar-nav a:hover {
 
 .speak-with-us{
   color: #dc3545;
-  font-size: 55px;
+  font-size: 10vw;
 }
 .free-consultation{
-  font-size: 32px;
+  font-size: 7vw;
 }
 
 .insert-calendly{
